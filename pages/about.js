@@ -1,12 +1,14 @@
 import Head from 'next/head';
 
-export default function Home() {
+function about() {
   return (
     <div>
       <Head>
-        <title>Home</title>
+        <title>About Page</title>
       </Head>
-      <h1>Welcome to Next</h1>
+      <h2>about</h2>
     </div>
   );
 }
+
+export default about;
